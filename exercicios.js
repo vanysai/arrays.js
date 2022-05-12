@@ -9,3 +9,5 @@ console.log(salarios)
 
 //3 
 
+let booleans = [8 > 2, 78 > 3, 45 < 5]
+console.log(booleans)

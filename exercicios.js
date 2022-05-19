@@ -14,8 +14,14 @@ console.log(booleans)
 
 //4 
 
-let salarios2 = ['R$900', 'R$800', 'R$20000' , 'R$1000']
-console.log(salarios2)
+let matrizes = [[5,9,8]]
+let preço = ["10"]
+for(let i in matrizes){
+    matrizes [i][0] *= preço
+    matrizes [i][1] *= preço
+    matrizes [i][2] *= preço
+}
+console.log(matrizes)
 
 //5
 

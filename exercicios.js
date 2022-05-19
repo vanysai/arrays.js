@@ -47,15 +47,16 @@ function random(max,min){
     n = Math.floor(Math.random()* (max - min) + min);
     return n;
 }
-q7 = []
-for(i = 0; i < 2; ii++){
-    arr = []
-q7.push(arr);
-for(ii = 0; ii < 2; ii++){
-    q7[i].push(random(9,0));
-}
-}
-det = (q7[0][0]* q7[1][1] - q7[0][1] * q7[1][0]);
-console.log(det);
 
-// não sei se a 7 ta certa (???)
+q7 = []
+for(i = 0; i < 2; i++){
+    arr = []
+    q7.push(arr);
+    for(ii = 0; ii < 2; ii++){
+        q7[i].push(random(9,0));
+    }
+
+}
+
+det = (q7[0][0]* q7[1][1]) - (q7[0][1] * q7[1][0]);
+console.log(q7, det);
